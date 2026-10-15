@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "ChatStash - AI Chat Organizer",
+  "version": "1.0.0",
+  "description": "Save and organize ChatGPT, Claude, Gemini and Grok chats into folders.",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://api.lemonsqueezy.com/*"],
+  "action": { "default_popup": "popup.html" }
+}
